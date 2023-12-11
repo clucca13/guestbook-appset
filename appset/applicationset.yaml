@@ -5,7 +5,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/wings-software/guestbook-delivery.git
+      repoURL: https://github.com/clucca13/guestbook-appset.git
       revision: HEAD
       files:
       - path: "cluster-config/**/config.json"
@@ -19,7 +19,7 @@ spec:
     spec:
       project: 207bda4a
       source:
-        repoURL: https://github.com/wings-software/guestbook-delivery.git
+        repoURL: https://github.com/clucca13/guestbook-appset.git
         targetRevision: HEAD
         path: "base"
         kustomize:
